@@ -31,6 +31,6 @@ public class UserTABLE {
         objContentValues.put(COLUMN_NAME, strName);
 
         return writeSqLiteDatabase.insert(TABLE_USER, null, objContentValues);
-    }
+    } //add
 
-}//Main Class
+} //Main Class
